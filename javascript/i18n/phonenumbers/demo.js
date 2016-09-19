@@ -33,6 +33,7 @@ goog.require('i18n.phonenumbers.PhoneNumberUtil.ValidationResult');
 
 
 function phoneNumberParser() {
+  console.info("here it is");
   var $ = goog.dom.getElement;
   var phoneNumber = $('phoneNumber').value;
   var regionCode = $('defaultCountry').value;
